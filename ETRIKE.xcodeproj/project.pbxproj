@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDF8DEA420323E1B00C1DB57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF8DEA320323E1B00C1DB57 /* AppDelegate.swift */; };
+		FDF8DEA620323E1B00C1DB57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF8DEA520323E1B00C1DB57 /* ViewController.swift */; };
+		FDF8DEA920323E1B00C1DB57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF8DEA720323E1B00C1DB57 /* Main.storyboard */; };
+		FDF8DEAB20323E1B00C1DB57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF8DEAA20323E1B00C1DB57 /* Assets.xcassets */; };
+		FDF8DEAE20323E1B00C1DB57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF8DEAC20323E1B00C1DB57 /* LaunchScreen.storyboard */; };
+		FDF8DEB920323E1B00C1DB57 /* ETRIKETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF8DEB820323E1B00C1DB57 /* ETRIKETests.swift */; };
+		FDF8DEC420323E1B00C1DB57 /* ETRIKEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF8DEC320323E1B00C1DB57 /* ETRIKEUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDF8DEB520323E1B00C1DB57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDF8DE9820323E1B00C1DB57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDF8DE9F20323E1B00C1DB57;
+			remoteInfo = ETRIKE;
+		};
+		FDF8DEC020323E1B00C1DB57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDF8DE9820323E1B00C1DB57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDF8DE9F20323E1B00C1DB57;
+			remoteInfo = ETRIKE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDF8DEA020323E1B00C1DB57 /* ETRIKE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETRIKE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF8DEA320323E1B00C1DB57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDF8DEA520323E1B00C1DB57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDF8DEA820323E1B00C1DB57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDF8DEAA20323E1B00C1DB57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDF8DEAD20323E1B00C1DB57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDF8DEAF20323E1B00C1DB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF8DEB420323E1B00C1DB57 /* ETRIKETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETRIKETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF8DEB820323E1B00C1DB57 /* ETRIKETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETRIKETests.swift; sourceTree = "<group>"; };
+		FDF8DEBA20323E1B00C1DB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF8DEBF20323E1B00C1DB57 /* ETRIKEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETRIKEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF8DEC320323E1B00C1DB57 /* ETRIKEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETRIKEUITests.swift; sourceTree = "<group>"; };
+		FDF8DEC520323E1B00C1DB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF8DE9D20323E1B00C1DB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF8DEB120323E1B00C1DB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF8DEBC20323E1B00C1DB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDF8DE9720323E1B00C1DB57 = {
+			isa = PBXGroup;
+			children = (
+				FDF8DEA220323E1B00C1DB57 /* ETRIKE */,
+				FDF8DEB720323E1B00C1DB57 /* ETRIKETests */,
+				FDF8DEC220323E1B00C1DB57 /* ETRIKEUITests */,
+				FDF8DEA120323E1B00C1DB57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF8DEA120323E1B00C1DB57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF8DEA020323E1B00C1DB57 /* ETRIKE.app */,
+				FDF8DEB420323E1B00C1DB57 /* ETRIKETests.xctest */,
+				FDF8DEBF20323E1B00C1DB57 /* ETRIKEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF8DEA220323E1B00C1DB57 /* ETRIKE */ = {
+			isa = PBXGroup;
+			children = (
+				FDF8DEA320323E1B00C1DB57 /* AppDelegate.swift */,
+				FDF8DEA520323E1B00C1DB57 /* ViewController.swift */,
+				FDF8DEA720323E1B00C1DB57 /* Main.storyboard */,
+				FDF8DEAA20323E1B00C1DB57 /* Assets.xcassets */,
+				FDF8DEAC20323E1B00C1DB57 /* LaunchScreen.storyboard */,
+				FDF8DEAF20323E1B00C1DB57 /* Info.plist */,
+			);
+			path = ETRIKE;
+			sourceTree = "<group>";
+		};
+		FDF8DEB720323E1B00C1DB57 /* ETRIKETests */ = {
+			isa = PBXGroup;
+			children = (
+				FDF8DEB820323E1B00C1DB57 /* ETRIKETests.swift */,
+				FDF8DEBA20323E1B00C1DB57 /* Info.plist */,
+			);
+			path = ETRIKETests;
+			sourceTree = "<group>";
+		};
+		FDF8DEC220323E1B00C1DB57 /* ETRIKEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDF8DEC320323E1B00C1DB57 /* ETRIKEUITests.swift */,
+				FDF8DEC520323E1B00C1DB57 /* Info.plist */,
+			);
+			path = ETRIKEUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF8DE9F20323E1B00C1DB57 /* ETRIKE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF8DEC820323E1B00C1DB57 /* Build configuration list for PBXNativeTarget "ETRIKE" */;
+			buildPhases = (
+				FDF8DE9C20323E1B00C1DB57 /* Sources */,
+				FDF8DE9D20323E1B00C1DB57 /* Frameworks */,
+				FDF8DE9E20323E1B00C1DB57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ETRIKE;
+			productName = ETRIKE;
+			productReference = FDF8DEA020323E1B00C1DB57 /* ETRIKE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDF8DEB320323E1B00C1DB57 /* ETRIKETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF8DECB20323E1B00C1DB57 /* Build configuration list for PBXNativeTarget "ETRIKETests" */;
+			buildPhases = (
+				FDF8DEB020323E1B00C1DB57 /* Sources */,
+				FDF8DEB120323E1B00C1DB57 /* Frameworks */,
+				FDF8DEB220323E1B00C1DB57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDF8DEB620323E1B00C1DB57 /* PBXTargetDependency */,
+			);
+			name = ETRIKETests;
+			productName = ETRIKETests;
+			productReference = FDF8DEB420323E1B00C1DB57 /* ETRIKETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDF8DEBE20323E1B00C1DB57 /* ETRIKEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF8DECE20323E1B00C1DB57 /* Build configuration list for PBXNativeTarget "ETRIKEUITests" */;
+			buildPhases = (
+				FDF8DEBB20323E1B00C1DB57 /* Sources */,
+				FDF8DEBC20323E1B00C1DB57 /* Frameworks */,
+				FDF8DEBD20323E1B00C1DB57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDF8DEC120323E1B00C1DB57 /* PBXTargetDependency */,
+			);
+			name = ETRIKEUITests;
+			productName = ETRIKEUITests;
+			productReference = FDF8DEBF20323E1B00C1DB57 /* ETRIKEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF8DE9820323E1B00C1DB57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mercy Aguebor";
+				TargetAttributes = {
+					FDF8DE9F20323E1B00C1DB57 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FDF8DEB320323E1B00C1DB57 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDF8DE9F20323E1B00C1DB57;
+					};
+					FDF8DEBE20323E1B00C1DB57 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDF8DE9F20323E1B00C1DB57;
+					};
+				};
+			};
+			buildConfigurationList = FDF8DE9B20323E1B00C1DB57 /* Build configuration list for PBXProject "ETRIKE" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDF8DE9720323E1B00C1DB57;
+			productRefGroup = FDF8DEA120323E1B00C1DB57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF8DE9F20323E1B00C1DB57 /* ETRIKE */,
+				FDF8DEB320323E1B00C1DB57 /* ETRIKETests */,
+				FDF8DEBE20323E1B00C1DB57 /* ETRIKEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDF8DE9E20323E1B00C1DB57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF8DEAE20323E1B00C1DB57 /* LaunchScreen.storyboard in Resources */,
+				FDF8DEAB20323E1B00C1DB57 /* Assets.xcassets in Resources */,
+				FDF8DEA920323E1B00C1DB57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF8DEB220323E1B00C1DB57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF8DEBD20323E1B00C1DB57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF8DE9C20323E1B00C1DB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF8DEA620323E1B00C1DB57 /* ViewController.swift in Sources */,
+				FDF8DEA420323E1B00C1DB57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF8DEB020323E1B00C1DB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF8DEB920323E1B00C1DB57 /* ETRIKETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF8DEBB20323E1B00C1DB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF8DEC420323E1B00C1DB57 /* ETRIKEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDF8DEB620323E1B00C1DB57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDF8DE9F20323E1B00C1DB57 /* ETRIKE */;
+			targetProxy = FDF8DEB520323E1B00C1DB57 /* PBXContainerItemProxy */;
+		};
+		FDF8DEC120323E1B00C1DB57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDF8DE9F20323E1B00C1DB57 /* ETRIKE */;
+			targetProxy = FDF8DEC020323E1B00C1DB57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDF8DEA720323E1B00C1DB57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF8DEA820323E1B00C1DB57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDF8DEAC20323E1B00C1DB57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF8DEAD20323E1B00C1DB57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDF8DEC620323E1B00C1DB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDF8DEC720323E1B00C1DB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDF8DEC920323E1B00C1DB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ETRIKE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mercy.ETRIKE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDF8DECA20323E1B00C1DB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ETRIKE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mercy.ETRIKE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDF8DECC20323E1B00C1DB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ETRIKETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mercy.ETRIKETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ETRIKE.app/ETRIKE";
+			};
+			name = Debug;
+		};
+		FDF8DECD20323E1B00C1DB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ETRIKETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mercy.ETRIKETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ETRIKE.app/ETRIKE";
+			};
+			name = Release;
+		};
+		FDF8DECF20323E1B00C1DB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ETRIKEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mercy.ETRIKEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ETRIKE;
+			};
+			name = Debug;
+		};
+		FDF8DED020323E1B00C1DB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ETRIKEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mercy.ETRIKEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ETRIKE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF8DE9B20323E1B00C1DB57 /* Build configuration list for PBXProject "ETRIKE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF8DEC620323E1B00C1DB57 /* Debug */,
+				FDF8DEC720323E1B00C1DB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF8DEC820323E1B00C1DB57 /* Build configuration list for PBXNativeTarget "ETRIKE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF8DEC920323E1B00C1DB57 /* Debug */,
+				FDF8DECA20323E1B00C1DB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF8DECB20323E1B00C1DB57 /* Build configuration list for PBXNativeTarget "ETRIKETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF8DECC20323E1B00C1DB57 /* Debug */,
+				FDF8DECD20323E1B00C1DB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF8DECE20323E1B00C1DB57 /* Build configuration list for PBXNativeTarget "ETRIKEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF8DECF20323E1B00C1DB57 /* Debug */,
+				FDF8DED020323E1B00C1DB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDF8DE9820323E1B00C1DB57 /* Project object */;
+}
